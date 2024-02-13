@@ -11,7 +11,8 @@
 #' @export
 
 team_function <- function(team) {
-  filter(cbbga24, Team1==team | Team2==team)
+  cbbga24 |> 
+    filter(Team1==team | Team2==team)
 }
 
 
