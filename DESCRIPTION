@@ -11,6 +11,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.0
 Depends: 
     tidyverse,
+    shiny,
     R (>= 2.10)
 LazyData: true
 Suggests: 
